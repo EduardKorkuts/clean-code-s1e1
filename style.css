@@ -4,24 +4,24 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+.page-banner {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.page-banner__img {
     width: 100%;
 }
-.aaa .more_inf {
+.page-banner__more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.page-banner { text-align: center;
 }
 }
-.centered-main-page-element {
+.todo-list {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -118,12 +118,12 @@ li > label {
 li >    input[type="text"] {
     width: 226px
 }
-button.delete img {
+.delete-button img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete-button img:hover {
     transform: rotateZ(0);
 }
 
@@ -138,11 +138,11 @@ ul li input[type=text] {
     display:none
 }
 
-ul li.editMode input[type=text] {
+.edit-mode input[type=text] {
     display:inline-block;
     width:224px
 }
 
-ul li.editMode label {
+.edit-mode label {
     display:none;
 }
